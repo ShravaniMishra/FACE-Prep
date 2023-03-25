@@ -8,18 +8,29 @@
     padding-top: 10px;
     padding-bottom: 2px;
     border-radius: 5px;
-    background-image: linear-gradient(rgb(250, 184, 250),rgb(190, 96, 96));
+   
 }
 .Navbar > img{
     width: 20%;
 }
 .Navbar > a{
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(241, 8, 8);
+}
+.Navbar:hover{
+    background-color: black;
 }
 .Navbar > a:hover{
    transition: all 2s ease-in-out;
-  color: teal;
+  color:rgb(196,150,40) ;
   text-decoration: underline;
 
+}
+@media (max-width: 1024px) {
+    .Navbar > img{
+    width: 30%;
+}
+.Navbar > a{
+    padding-top: -10px;
+}
 }

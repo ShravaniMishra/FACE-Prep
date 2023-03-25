@@ -1,13 +1,13 @@
 import React from 'react'
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import './Login.css'
 
 const Login = () => {
   return (
     <>
-      <div>
+      <div className='Login'>
         <form action="">
           <input type="text" placeholder="Please Enter UserName" />
-          <br />
           <br />
           <input type="password" placeholder="Please Enter your Password" />
           <br />

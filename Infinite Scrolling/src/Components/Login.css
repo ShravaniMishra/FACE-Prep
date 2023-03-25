@@ -1,0 +1,28 @@
+.Login{
+    width: 40%;
+    height: 300px;
+    margin: auto;
+     margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 11px;
+    text-align: center;
+    padding-top: 20px;
+    background-image: linear-gradient(rgb(137, 230, 230),rgb(221, 92, 221));
+}
+input{
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 11px;
+    text-align: center;
+    
+}
+@media (max-width: 1024px) {
+    .Login{
+        width: 90%;
+        margin-top: 45px;
+    }
+    input{
+        width: 80%;
+    }
+}

@@ -1,4 +1,5 @@
 import React, { useEffect, useId, useState } from "react";
+import './Home.css'
 
 const Home = () => {
   const [data, setData] = useState("");
@@ -20,7 +21,7 @@ const Home = () => {
               <div key={ind}>
                 <h1>
                   {elem.name.first }
-                  {elem.name.last}
+                  { elem.name.last}
                 </h1>
                 <img src={elem.picture.thumbnail} alt="thumb" />
               </div>
