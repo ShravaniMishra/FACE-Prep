@@ -17,6 +17,7 @@ input{
     text-align: center;
     
 }
+
 @media (max-width: 1024px) {
     .Login{
         width: 90%;

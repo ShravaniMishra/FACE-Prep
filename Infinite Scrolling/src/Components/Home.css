@@ -46,4 +46,10 @@
     margin-top: 20px;
     overflow-x: hidden;
 }
+.Data > div > img{
+    width: 20%;
+    border-radius: 60px;
+    margin-left: 80%;
+    margin-top: -15%;
+}
 }

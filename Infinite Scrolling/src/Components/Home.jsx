@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
+import { NavLink } from "react-router-dom";
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./Navbar";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -33,11 +36,13 @@ const Home = () => {
   };
 
   useEffect(() => {
+    console.log("Component got rendered");
     getData();
     window.addEventListener("scroll", handleScroll);
   }, []);
   return (
     <>
+    <Navbar/>
       <div className="Data">
         {data &&
           data.map((elem, ind) => {
